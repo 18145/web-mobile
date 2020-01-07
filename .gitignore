@@ -1,0 +1,73 @@
+# Créé par https://www.gitignore.io/api/linux,macos,windows
+# Modifier sur https://www.gitignore.io/?templates=linux,macos,windows
+
+### Linux ###
+* ~
+
+# fichiers temporaires qui peuvent être créés si un processus a toujours une poignée ouverte d'un fichier supprimé
+.fuse_hidden *
+
+# Préférences de répertoire KDE
+.annuaire
+
+# Dossier poubelle Linux pouvant apparaître sur n'importe quelle partition ou disque
+.Poubelle-*
+
+# Les fichiers .nfs sont créés lorsqu'un fichier ouvert est supprimé mais est toujours en cours d'accès
+.nfs *
+
+### macOS ###
+# Général
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# L'icône doit se terminer par deux \ r
+Icône
+
+# Miniatures
+._ *
+
+# Fichiers pouvant apparaître à la racine d'un volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Répertoires potentiellement créés sur un partage AFP distant
+.AppleDB
+.AppleDesktop
+Dossier Corbeille réseau
+Articles temporaires
+.apdisk
+
+### Les fenêtres ###
+# Fichiers de cache de vignettes Windows
+Thumbs.db
+Thumbs.db: cryptable
+ehthumbs.db
+ehthumbs_vista.db
+
+# Fichier de vidage
+* .stackdump
+
+# Fichier de configuration de dossier
+[Dd] esktop.ini
+
+# Corbeille utilisée sur les partages de fichiers
+$ RECYCLE.BIN /
+
+# Fichiers Windows Installer
+*.taxi
+* .msi
+* .msix
+* .msm
+* .msp
+
+# Raccourcis Windows
+* .lnk
+
+# Fin de https://www.gitignore.io/api/linux,macos,windows
